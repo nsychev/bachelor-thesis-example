@@ -1,0 +1,175 @@
+{
+  "__type" : "flowProblem",
+  "id" : "50830/2021_04_08/jtRhllN2QM",
+  "ownerId" : 50830,
+  "testFileType" : "text",
+  "creationTime" : 1617865744933,
+  "modifyTime" : 1617876485114,
+  "shortName" : "chomp-encode-run-twice",
+  "defaultLocale" : "ru",
+  "names" : {
+    "ru" : "Игра с тайным смыслом"
+  },
+  "statements" : [ {
+    "locale" : "ru",
+    "type" : "markdown",
+    "path" : "statements/.html/ru/texstatement.html",
+    "additional" : false,
+    "state" : "valid",
+    "rendered" : true,
+    "markdownStatement" : {
+      "showLimits": false
+    }
+  } ],
+  "fileSet" : {
+    "inputFile" : "",
+    "outputFile" : "",
+    "redirectStdin" : true,
+    "redirectStdout" : true
+  },
+  "solutionLimits" : {
+    "timeLimitMillis" : 3000,
+    "idlenessLimitMillis" : 15000,
+    "memoryLimit" : 1073741824,
+    "outputLimit" : 256000000
+  },
+  "sourceSizeLimit" : 262144,
+  "testSets" : [ {
+    "name" : "all-tests",
+    "inputFilePattern" : "tests/{01-10}",
+    "answerFilePattern" : "*.a",
+    "matchedTests" : [ {
+      "inputPath" : "tests/01",
+      "answerPath" : "tests/01.a",
+      "inputExists" : true,
+      "answerExists" : true
+    }, {
+      "inputPath" : "tests/02",
+      "answerPath" : "tests/02.a",
+      "inputExists" : true,
+      "answerExists" : true
+    }, {
+      "inputPath" : "tests/03",
+      "answerPath" : "tests/03.a",
+      "inputExists" : true,
+      "answerExists" : true
+    }, {
+      "inputPath" : "tests/04",
+      "answerPath" : "tests/04.a",
+      "inputExists" : true,
+      "answerExists" : true
+    }, {
+      "inputPath" : "tests/05",
+      "answerPath" : "tests/05.a",
+      "inputExists" : true,
+      "answerExists" : true
+    }, {
+      "inputPath" : "tests/06",
+      "answerPath" : "tests/06.a",
+      "inputExists" : true,
+      "answerExists" : true
+    }, {
+      "inputPath" : "tests/07",
+      "answerPath" : "tests/07.a",
+      "inputExists" : true,
+      "answerExists" : true
+    }, {
+      "inputPath" : "tests/08",
+      "answerPath" : "tests/08.a",
+      "inputExists" : true,
+      "answerExists" : true
+    }, {
+      "inputPath" : "tests/09",
+      "answerPath" : "tests/09.a",
+      "inputExists" : true,
+      "answerExists" : true
+    }, {
+      "inputPath" : "tests/10",
+      "answerPath" : "tests/10.a",
+      "inputExists" : true,
+      "answerExists" : true
+    } ],
+    "testsMatched" : true
+  } ],
+  "solutions" : [ {
+    "compilerId" : "gcc",
+    "sourcePath" : "solutions/md_bug1.kt",
+    "verdict" : "wrong-answer"
+  }, {
+    "compilerId" : "gcc7_3",
+    "sourcePath" : "solutions/chomp_tourist_cut3id_better.cpp",
+    "verdict" : "ok"
+  }, {
+    "compilerId" : "gcc",
+    "sourcePath" : "solutions/md_uniformRemovingUpTo5_win.kt",
+    "verdict" : "ok"
+  }, {
+    "compilerId" : "gcc7_3",
+    "sourcePath" : "solutions/cds-baseline.cpp",
+    "verdict" : "ok"
+  }, {
+    "compilerId" : "gcc",
+    "sourcePath" : "solutions/md_uniformRowNumber.kt",
+    "verdict" : "ok"
+  }, {
+    "compilerId" : "gcc7_3",
+    "sourcePath" : "solutions/chomp_tourist_cut4id.cpp",
+    "verdict" : "ok"
+  }, {
+    "compilerId" : "gcc7_3",
+    "sourcePath" : "solutions/chomp_pm_1bpg.cpp",
+    "verdict" : "ok"
+  }, {
+    "compilerId" : "gcc7_3",
+    "sourcePath" : "solutions/sol_nb1.cpp",
+    "verdict" : "ok"
+  }, {
+    "compilerId" : "gcc7_3",
+    "sourcePath" : "solutions/chomp_tourist_cut2id.cpp",
+    "verdict" : "ok"
+  }, {
+    "compilerId" : "gcc7_3",
+    "sourcePath" : "solutions/sol_nb2.cpp",
+    "verdict" : "ok"
+  }, {
+    "compilerId" : "gcc7_3",
+    "sourcePath" : "solutions/chomp_pm_1bpg_win.cpp",
+    "verdict" : "ok"
+  }, {
+    "compilerId" : "gcc7_3",
+    "sourcePath" : "solutions/chomp_tourist_cut4id_better.cpp",
+    "verdict" : "ok"
+  }, {
+    "compilerId" : "gcc7_3",
+    "sourcePath" : "solutions/chomp_tourist_cut1id.cpp",
+    "verdict" : "ok"
+  }, {
+    "compilerId" : "gcc7_3",
+    "sourcePath" : "solutions/chomp_pm_1bpm.cpp",
+    "verdict" : "ok"
+  }, {
+    "compilerId" : "gcc7_3",
+    "sourcePath" : "solutions/pkun_stupid.cpp",
+    "verdict" : "ok"
+  }, {
+    "compilerId" : "gcc7_3",
+    "sourcePath" : "solutions/chomp_tourist_cut3id.cpp",
+    "verdict" : "ok"
+  }, {
+    "compilerId" : "gcc7_3",
+    "sourcePath" : "solutions/chomp_strekalovskaya.cpp",
+    "verdict" : "ok"
+  }, {
+    "compilerId" : "gcc7_3",
+    "sourcePath" : "solutions/chomp_tourist_cut1or2.cpp",
+    "verdict" : "ok"
+  }, {
+    "compilerId" : "gcc7_3",
+    "sourcePath" : "solutions/chomp_pkun_varlen_brute.cpp",
+    "verdict" : "ok"
+  }, {
+    "compilerId" : "gcc7_3",
+    "sourcePath" : "solutions/chomp_pkun_varlen.cpp",
+    "verdict" : "ok"
+  } ]
+}

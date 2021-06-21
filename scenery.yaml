@@ -1,0 +1,33 @@
+version: '0.1'
+phases:
+    compile:
+        images:
+            - compiler: true
+        input:
+            - type: solution
+        output:
+            - type: temp-file
+        on-fail:
+            action: finish
+            verdict: compilation-error
+        command: |
+            compile $1 $2
+        limits:
+            cpu-time: 60000
+            real-time: 60000
+            memory: 549453824
+            output:
+                1: 10485760
+    tester:
+        images:
+            - custom: 'tester/default'
+        input:
+            - type: problem-file
+              name: problem.json
+            - type: problem-file
+              name: files/template.yaml.ftl
+            - type: outcome
+        output:
+            - type: outcome
+            - type: phase
+              report-to: 3
